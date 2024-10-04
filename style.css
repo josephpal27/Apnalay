@@ -1,0 +1,800 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+ /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+/* Header Starts */
+header{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    padding: 0.7rem 0;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+header i{
+    margin-right: 0.1rem;
+    font-size: 1.1rem;
+}
+/* Header Ends */
+
+
+/* Navbar Starts */
+.navbar {
+    padding: 1.5rem 0.5rem;
+}
+.navbar-brand img {
+    max-height: 50px;
+}
+.navbar-nav .nav-item {
+    margin-left: 0.5rem;
+}
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem !important;
+    border-radius: 30px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Montserrat', Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: #e5b59e;
+    color: #fff !important;
+}
+.nav-link.active{
+    background-color: #e5b59e;
+    color: #fff !important;
+}
+.navbar-toggler {
+    border: none;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        padding: 1rem 0.5rem;
+    }
+    .navbar-nav{
+        margin-top: 1.5rem !important;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+}
+/* Navbar Ends */
+
+/* Banner Starts */
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: 95vh;
+}
+/* Banner Ends */
+
+/* Top Cards Starts */
+.top-cards{
+    padding: 5rem 0;
+}
+.top-cards .card-row{
+    display: flex;
+    justify-content: space-between;
+}
+.top-cards .card{
+    width: 31%;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius: 0;
+    padding-bottom: 4rem;
+}
+.top-cards .card .card-img{
+    overflow: hidden;
+    border-radius: 0;
+}
+.top-cards .card .card-img img{
+   width: 100%;
+   border-radius: 0;
+   transition: all 0.8s ease;
+}
+.top-cards .card .card-img img:hover{
+   scale: 1.2;
+}
+.top-cards .card .card-desc{
+   width: 90%;
+   margin-left: 5%;
+   background-color: #fff;
+   padding: 2rem 0;
+   text-align: center;
+   border-bottom: 3px dashed #e5b59e;
+   position: absolute;
+   bottom: 0;
+}
+.top-cards .card .card-desc h4{
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Top Cards Ends */
+
+
+/* Image Para Section Starts Here */
+.image-para{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.image-para-left{
+    width: 40%;
+    position: relative;
+}
+.image-para-left img{
+    width: 100%;
+    margin-left: 2.7rem;
+}
+.image-para-left .labal-text{
+    position: absolute;
+    bottom: 4rem;
+    left: -2rem;
+    background-color: #4d2740;
+    padding: 1.5rem 0 1.5rem 0;
+    width: 95%;
+}
+.image-para-left .labal-shape{
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    background-color: #4d2740;
+    width: 4.3rem;
+    height: 4rem;
+    transform: rotate(35deg);
+    z-index: -1;
+}
+.image-para-left .labal-text h3{
+    color: #fff;
+    font-weight: 700;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    padding-left: 5.5rem;
+}
+.image-para-right{
+    width: 52%;
+    overflow: hidden;
+}
+.image-para-right h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.image-para-right h1 span{
+    color: #e5b59e;
+}
+.image-para-right h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.image-para-right p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: #585858;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.image-para-right button{
+    background-color: #4d2740;
+    color: #fff;
+    border: 4px solid #4d2740;
+    margin-top: 1.5rem;
+    padding: 0.3rem 2rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+.image-para-right button:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* Image Para Section Ends Here */
+
+
+/* Features Section Starts */
+.features{
+    padding: 4rem 0;
+    margin-top: 4rem;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.features-head{
+    text-align: center;
+}
+.features-head h1{
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.7rem;
+}
+.features-head h1 span{
+    color: #4d2740;
+}
+.features-head p{
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    width: 70%;
+    margin-left: 15%;
+    color: #585858;
+}
+.features-head i{
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    color: #585858;
+}
+.features-cards-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.features-cards-row .feature-card{
+   width: 31.5%;
+   overflow: hidden;
+   position: relative;
+   margin-bottom: 2.2rem;
+}
+.features-cards-row .feature-card img{ 
+   width: 100%;
+   border-radius: 10px;
+}
+.feature-card-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.feature-card-text i{
+    font-size: 3rem;
+    color: #4d2740;
+}
+.feature-card-text h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.feature-card-text p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.feature-card-text:hover{
+    background-color: #d7591f65;
+}
+.feature-card-text:hover i,
+.feature-card-text:hover h2,
+.feature-card-text:hover p{
+    color: #fff;
+}
+/* Features Section Ends */
+
+
+/* Video Text Section Starts */
+.video-text{
+    overflow: hidden;
+    display: flex;
+}
+.video-text-left{
+    width: 45%;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+.video-text-left img{
+    width: 100%;
+}
+.video-text-right{
+    width: 55%;
+    padding: 4.5rem 5rem 3rem 5rem;
+    background-color: #4d2740;
+    color: #fff;
+    overflow: hidden;
+}
+.video-text-right h1{
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+.video-text-right p{
+    font-size: 1.2rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 1.7rem;
+}
+.video-text-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.video-text-list .list-left{
+    width: 50%;
+}
+.video-text-list .list-right{
+    width: 50%;
+}
+.video-text-list li{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Video Text Section Ends */
+
+
+/* Services Section Starts */
+.services-bg{
+    padding: 5rem 0;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+.services-head{
+    text-align: center;
+}
+.services-head h1{
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.7rem;
+}
+.services-head h1 span{
+    color: #4d2740;
+}
+.services-head p{
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    width: 70%;
+    margin-left: 15%;
+    color: #585858;
+}
+.services-head i{
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    color: #585858;
+}
+
+.slider-container {
+    margin-top: 2.5rem;
+}
+.slick-slide {
+    margin: 0 15px;
+}
+.card-slider .card {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    overflow: hidden;
+    padding-bottom: 2.2rem;
+}
+.slick-prev, 
+.slick-next {
+    background-color: #404040 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 50%;
+}
+.slick-prev:hover, .slick-next:hover {
+    background-color: #595959 !important;
+}
+.service-card-img{
+    overflow: hidden;
+    height: 17rem;
+}
+.service-card-img img{
+    width: 100%;
+    transition: all 1s ease;
+}
+.card-slider .card:hover img{
+    scale: 1.2;
+}
+.card-slider .card h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #022b48;
+    margin-top: 1.7rem;
+}
+.card-slider .card p{
+    font-size: 1.2rem;
+    color: #585858;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0.8rem;
+    padding: 0 0.9rem;
+}
+.card-slider .card button{
+    font-size: 1rem;
+    font-weight: 500;
+    border: 3px solid #4d2740;
+    color: #4d2740;
+    background-color: #fff;
+    padding: 0.7rem 2.3rem;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+.card-slider .card button:hover{
+    color: #fff;
+    background-color: #4d2740;
+}
+/* Services Section Ends */
+
+
+/* Mission Section Starts */
+.mission{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.mission-left{
+    width: 50%;
+    overflow: hidden;
+    background-color: #4d2740;
+    color: #fff;
+    padding: 2.7rem 5rem 2rem 7.5rem;
+}
+.mission-left h1{
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+.mission-left p{
+    font-size: 1.2rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 1.5rem;
+}
+.mission-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.8rem;
+}
+.mission-cards .box i{
+    font-size: 2.6rem;
+    color: #e5b59e;
+}
+.mission-cards .box h2{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-top: 0.9rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.mission-cards .box h5{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.mission-right{
+    width: 50%;
+    overflow: hidden;
+}
+.mission-right img{
+    width: 100%;
+}
+/* Mission Section Ends */
+
+
+/* Team Section Starts */
+.team-bg{
+    background-color: #fff;
+    overflow: hidden;
+    padding: 5rem 0 6rem 0;
+}
+.team-head{
+    text-align: center;
+}
+.team-head h1{
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.7rem;
+}
+.team-head h1 span{
+    color: #4d2740;
+}
+.team-head p{
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    width: 70%;
+    margin-left: 15%;
+    color: #585858;
+}
+.team-head i{
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    color: #585858;
+}
+.team-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.team-row .team-card{
+    width: 31%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    padding-bottom: 7rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.team-card img{
+    width: 100%;
+}
+.team-card .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #e5b49e86;
+    position: absolute;
+    top: -100%;
+    transition: all 0.7s ease;
+}
+.team-card .bottom{
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #f5f5f5;
+    position: absolute;
+    width: 100%;
+    bottom: -3.2rem;
+    transition: all 0.3s ease;
+}
+.team-card .bottom h3{
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    transition: all 0.2s ease;
+}
+.team-card .bottom h3:hover{
+    color: #e5b59e;
+}
+.team-card .bottom p{
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #585858;
+}
+.team-card .bottom .icon-row{
+    margin-top: 2rem;
+}
+.team-card .bottom i{
+    margin: 0 0.5rem;
+    transition: all 0.5s ease;
+}
+.team-card .bottom i:hover{
+    scale: 1.3;
+}
+
+.team-card:hover .bottom{
+    bottom: 0;
+}
+.team-card:hover .overlay{
+    top: 0;
+}
+/* Team Section Ends */
+
+
+/* Contact Form Section Starts */
+.contact-bg{
+    background-color: #f5f5f5;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.contact-left{
+    width: 50%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.contact-left h1{
+    width: 100%;
+    background-color: #e5b59e;
+    color: #fff;
+    font-size: 2.7rem;
+    font-weight: 800;
+    padding: 1rem 0 1.2rem 3rem;
+}
+.contact-left form{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-left form input::placeholder{
+    color: #bab9b9;
+}
+.contact-left form textarea::placeholder{
+    color: #bab9b9;
+}
+.contact-left form input,textarea, select{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: 2px solid #cdcdcd;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.contact-left form input:focus{
+    outline: 3px solid #4d2740;
+}
+.contact-left form textarea{
+    min-height: 8rem;
+    max-height: 15rem;
+}
+.contact-left select {
+    color: #bab9b9;
+}
+.contact-left select:focus {
+  color: #000;
+}
+.contact-left option {
+  color: #bab9b9;
+}
+.contact-left option:first-of-type {
+  color: #000;
+}
+.contact-left button{
+  color: #fff;
+  background-color: #4d2740;
+  border: 3px solid #4d2740;
+  padding: 0.6rem 1.5rem;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Montserrat', Arial, sans-serif;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+}
+.contact-left button:hover{
+  color: #4d2740;
+  background-color: #fff;
+}
+.contact-right{
+    width: 50%;
+    background-color: #4d2740;
+    color: #fff;
+    padding: 5rem 4rem;
+    overflow: hidden;
+}
+.contact-right h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.contact-right .line{
+    width: 4.5rem;
+    height: 4.5px;
+    background-color: #fff;
+    margin-top: 1.2rem;
+}
+.contact-right .testimy{
+    margin-top: 2rem;
+}
+.testimy p{
+    font-size: 1.3rem;
+}
+.testimy i{
+    color: rgb(255, 179, 0);
+    margin-top: 1rem;
+}
+.testimy .profile{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.testimy .profile-img{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 7px solid #fff;
+    margin-right: 2rem;
+}
+.testimy .profile h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.testimy .profile h6{
+    color: #c7c5c5;
+}
+/* Contact Form Section Ends */
+
+
+/*  News Section Starts */
+.news{
+    padding: 6rem 1rem;
+    overflow: hidden;
+}
+.news-head{
+    text-align: center;
+}
+.news-head h1{
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.7rem;
+}
+.news-head h1 span{
+    color: #4d2740;
+}
+.news-head p{
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    width: 70%;
+    margin-left: 15%;
+    color: #585858;
+}
+.news-head i{
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    color: #585858;
+}
+.news-card-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.news-card{
+    width: 31%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.2s ease;
+}
+.news-card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.news-card:hover img{
+    transform: translateY(-3px);
+}
+.news-card img{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+.news-card .news-card-desc{
+    padding: 1.5rem;
+}
+.news-card .news-card-desc h2{
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+.news-card .news-card-desc p{
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    color: #595959;
+}
+.news-card .news-card-desc hr{
+    color: #7a7a7a;
+}
+.news-card .news-card-desc button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.news-card .news-card-desc button i{
+    margin-left: 0.2rem;
+    font-size: 0.9rem;
+}
+/*  News Section Ends */

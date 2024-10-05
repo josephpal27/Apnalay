@@ -629,7 +629,9 @@
      </footer>
     <!-- Footer Ends Here -->
 
-
+    <div class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
 
 
 
@@ -679,13 +681,17 @@
 
     <script>
         $('.card-slider').on('init', function() {
-    AOS.refresh();
-});
-
-setTimeout(function() {
-    AOS.refresh();
-}, 500);  // Adjust the delay as necessary
+            AOS.refresh();
+        });
     </script>
+
+    <script>
+        setTimeout(function() {
+            AOS.refresh();
+        }, 2000);
+    </script>
+       
+    
 
 
 </body>

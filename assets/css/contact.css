@@ -1,41 +1,215 @@
 /* Top Banner Starts */
-.top-banner{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.top-banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-.top-banner img{
-    width: 100%;
+.top-banner img {
+  width: 100%;
 }
-.top-banner .top-banner-text{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.top-banner .top-banner-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.top-banner .top-banner-text h1{
-    color: #fff;
-    font-size: 3.5rem;
-    font-weight: 800;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.top-banner .top-banner-text h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.top-banner .top-banner-text h6{
-    color: #e6b59d;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-top: 0.5rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.top-banner .top-banner-text h6 {
+  color: #e6b59d;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.top-banner .top-banner-text i{
-    color: #fff;
-    margin: 0 3px;
+.top-banner .top-banner-text i {
+  color: #fff;
+  margin: 0 3px;
 }
-.top-banner .top-banner-text a{
-    color: #fff;
-    text-decoration: none;
+.top-banner .top-banner-text a {
+  color: #fff;
+  text-decoration: none;
 }
 /* Top Banner Ends */
+
+/* Get In Touch Starts Here */
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+.get-in-touch-left {
+  width: 50%;
+  padding: 2rem 3rem 2rem 0;
+}
+.get-in-touch-left h6 {
+  font-size: 1.4rem;
+}
+.get-in-touch-left h1 {
+  font-size: 4.2rem;
+  font-weight: 800;
+  color: #002c41;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.get-in-touch-left .line {
+  width: 4rem;
+  height: 4px;
+  background-color: #e6b59d;
+  margin-top: 1.2rem;
+}
+.get-in-touch-left p {
+  font-size: 1.25rem;
+  margin-top: 1.8rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(106, 106, 106);
+}
+.get-in-touch-right {
+  width: 50%;
+  background-color: #f5f5f5;
+  padding: 3rem;
+}
+.get-in-touch-right .input-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.get-in-touch-right input {
+  width: 48%;
+  height: fit-content;
+  padding: 1rem;
+  border: none;
+  outline: 2px solid #cdcdcd;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.get-in-touch-right input::placeholder {
+  color: #bab9b9;
+}
+.get-in-touch-right textarea::placeholder {
+  color: #bab9b9;
+}
+.get-in-touch-right select {
+  width: 48%;
+  height: fit-content;
+}
+.get-in-touch-right select {
+  color: #bab9b9;
+}
+.get-in-touch-right select:focus {
+  color: #000;
+}
+.get-in-touch-right option {
+  color: #bab9b9;
+}
+.get-in-touch-right option:first-of-type {
+  color: #000;
+}
+.get-in-touch-right textarea {
+  min-height: 8rem;
+  max-height: 15rem;
+  margin-top: -0.8rem;
+}
+.get-in-touch-right button {
+  color: #fff;
+  background-color: #4d2740;
+  border: 3px solid #4d2740;
+  padding: 0.6rem 1.5rem;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Montserrat", Arial, sans-serif;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+}
+.get-in-touch-right button:hover {
+  color: #4d2740;
+  background-color: #fff;
+}
+.get-in-touch-right input:focus {
+  outline: 3px solid #4d2740;
+}
+.get-in-touch-right textarea:focus {
+  outline: 3px solid #4d2740;
+}
+.get-in-touch-right select:focus {
+  outline: 3px solid #4d2740;
+}
+/* Get In Touch Ends Here */
+
+
+/* Contact Boxes Start */
+.contact-boxes{
+    padding: 2rem 0 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-boxes .contact-box{
+   background-color: #f5f5f5;
+   padding: 1.2rem 1rem;
+   width: 31%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 5px;
+   transition: all 0.2s ease;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.contact-boxes .contact-box:hover{
+   background-color: #f0f0f0;
+}
+.contact-boxes .contact-box-icon{
+   width: 30%;
+}
+.contact-boxes .contact-box-icon i{
+   background-color: #4d2740;
+   width: 5.5rem;
+   height: 5.5rem;
+   border-radius: 50%;
+   color: #fff;
+   font-size: 2.5rem;
+   line-height: 5.5rem;
+   text-align: center;
+}
+.contact-boxes .contact-box-icon #fa-envelope{
+   background-color: #e5b59e;
+}
+.contact-boxes .contact-box-desc{
+   width: 70%;
+}
+.contact-boxes .contact-box-desc p{
+   font-weight: 500;
+   font-size: 1.2rem;
+   color: #5b5b5b;
+}
+.contact-boxes .contact-box-desc h5{
+   font-weight: 800;
+   font-size: 1.3rem;
+   color: #1b4b60;
+}
+/* Contact Boxes End */
+
+
+/*  Map Section Starts */
+.contact-location{
+    height: 80vh;
+    margin-top: 1rem;
+    padding: 0;
+}
+/*  Map Section Ends */
+
+
+/* Footer Starts */
+footer{
+    margin-top: 6rem;
+}
+/* Footer Ends */

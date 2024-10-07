@@ -722,7 +722,7 @@ header i{
 /*  News Section Starts */
 .news{
     padding: 6rem 1.5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .news-head{
     text-align: center;

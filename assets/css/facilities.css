@@ -24,7 +24,7 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .top-banner .top-banner-text h6{
-    color: #e6b59d;
+    color: #d25826;
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 0.5rem;
@@ -87,8 +87,8 @@
 .our-services .card button{
     font-size: 1rem;
     font-weight: 500;
-    border: 3px solid #4d2740;
-    color: #4d2740;
+    border: 3px solid #528363;
+    color: #528363;
     background-color: #fff;
     padding: 0.7rem 2.3rem;
     margin-top: 0.8rem;
@@ -98,7 +98,7 @@
 }
 .our-services .card button:hover{
     color: #fff;
-    background-color: #4d2740;
+    background-color: #528363;
 }
 /* Services Cards Section Ends */
 

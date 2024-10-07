@@ -26,10 +26,10 @@ header i{
 
 /* Navbar Starts */
 .navbar {
-    padding: 1.5rem 0.5rem;
+    padding: 0.5rem;
 }
 .navbar-brand img {
-    max-height: 50px;
+    max-height: 100px;
 }
 .navbar-nav .nav-item {
     margin-left: 0.2rem;
@@ -43,11 +43,12 @@ header i{
     transition: all 0.2s ease;
 }
 .navbar-nav .nav-item:hover .nav-link {
-    background-color: #e5b59e;
+    background-color: #528363;
     color: #fff !important;
 }
 .nav-link.active{
-    background-color: #e5b59e;
+    /* background-color: #e5b59e; */
+    background-color: #528363;
     color: #fff !important;
 }
 .navbar-toggler {
@@ -113,7 +114,7 @@ header i{
    background-color: #fff;
    padding: 2rem 0;
    text-align: center;
-   border-bottom: 3px dashed #e5b59e;
+   border-bottom: 3px dashed #528363;
    position: absolute;
    bottom: 0;
 }
@@ -143,7 +144,7 @@ header i{
     position: absolute;
     bottom: 4rem;
     left: -2rem;
-    background-color: #4d2740;
+    background-color: #d25826;
     padding: 1.5rem 0 1.5rem 0;
     width: 95%;
 }
@@ -151,7 +152,7 @@ header i{
     position: absolute;
     bottom: 3rem;
     left: 0;
-    background-color: #4d2740;
+    background-color: #d25826;
     width: 4.3rem;
     height: 4rem;
     transform: rotate(35deg);
@@ -174,7 +175,8 @@ header i{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .image-para-right h1 span{
-    color: #e5b59e;
+    /* color: #e5b59e; */
+    color: #528363;
 }
 .image-para-right h5{
     font-size: 1.6rem;
@@ -190,9 +192,9 @@ header i{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .image-para-right button{
-    background-color: #4d2740;
+    background-color: #528363;
     color: #fff;
-    border: 4px solid #4d2740;
+    border: 4px solid #528363;
     margin-top: 1.5rem;
     padding: 0.3rem 2rem;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -221,7 +223,7 @@ header i{
     font-size: 2.7rem;
 }
 .features-head h1 span{
-    color: #4d2740;
+    color: #d25826;
 }
 .features-head p{
     font-weight: 500;
@@ -269,7 +271,7 @@ header i{
 }
 .feature-card-text i{
     font-size: 3rem;
-    color: #4d2740;
+    color: #d25826;
 }
 .feature-card-text h2{
     font-size: 1.7rem;
@@ -284,7 +286,8 @@ header i{
     font-family: 'Montserrat', Arial, sans-serif;
 }
 .feature-card-text:hover{
-    background-color: #d7591f65;
+    /* background-color: #d7591f65; */
+    background-color: #0ba44166;
 }
 .feature-card-text:hover i,
 .feature-card-text:hover h2,
@@ -310,7 +313,7 @@ header i{
 .video-text-right{
     width: 55%;
     padding: 4.5rem 5rem 3rem 5rem;
-    background-color: #4d2740;
+    background-color: #d25826;
     color: #fff;
     overflow: hidden;
 }
@@ -357,7 +360,7 @@ header i{
     font-size: 2.7rem;
 }
 .services-head h1 span{
-    color: #4d2740;
+    color: #d25826;
 }
 .services-head p{
     font-weight: 500;
@@ -425,8 +428,8 @@ header i{
 .card-slider .card button{
     font-size: 1rem;
     font-weight: 500;
-    border: 3px solid #4d2740;
-    color: #4d2740;
+    border: 3px solid #528363;
+    color: #528363;
     background-color: #fff;
     padding: 0.7rem 2.3rem;
     margin-top: 0.8rem;
@@ -436,7 +439,7 @@ header i{
 }
 .card-slider .card button:hover{
     color: #fff;
-    background-color: #4d2740;
+    background-color: #528363;
 }
 /* Services Section Ends */
 
@@ -450,7 +453,7 @@ header i{
 .mission-left{
     width: 50%;
     overflow: hidden;
-    background-color: #4d2740;
+    background-color: #d25826;
     color: #fff;
     padding: 2.7rem 5rem 2rem 7.5rem;
 }
@@ -470,7 +473,8 @@ header i{
 }
 .mission-cards .box i{
     font-size: 2.6rem;
-    color: #e5b59e;
+    /* color: #e5b59e; */
+    color: #78ea9f;
 }
 .mission-cards .box h2{
     font-size: 2.7rem;
@@ -507,7 +511,7 @@ header i{
     font-size: 2.7rem;
 }
 .team-head h1 span{
-    color: #4d2740;
+    color: #d25826;
 }
 .team-head p{
     font-weight: 500;
@@ -542,7 +546,8 @@ header i{
 .team-card .overlay{
     width: 100%;
     height: 100%;
-    background-color: #e5b49e86;
+    /* background-color: #e5b49e86; */
+    background-color: #72d0938d;
     position: absolute;
     top: -100%;
     transition: all 0.7s ease;
@@ -609,7 +614,8 @@ header i{
 }
 .contact-left h1{
     width: 100%;
-    background-color: #e5b59e;
+    /* background-color: #e5b59e; */
+    background-color: #528363;
     color: #fff;
     font-size: 2.7rem;
     font-weight: 800;
@@ -656,8 +662,8 @@ header i{
 }
 .contact-left button{
   color: #fff;
-  background-color: #4d2740;
-  border: 3px solid #4d2740;
+  background-color: #528363;
+  border: 3px solid #528363;
   padding: 0.6rem 1.5rem;
   width: fit-content;
   font-size: 1rem;
@@ -667,12 +673,12 @@ header i{
   margin-top: 1rem;
 }
 .contact-left button:hover{
-  color: #4d2740;
+  color: #528363;
   background-color: #fff;
 }
 .contact-right{
     width: 50%;
-    background-color: #4d2740;
+    background-color: #d25826;
     color: #fff;
     padding: 5rem 4rem;
     overflow: hidden;
@@ -733,7 +739,7 @@ header i{
     font-size: 2.7rem;
 }
 .news-head h1 span{
-    color: #4d2740;
+    color: #d25826;
 }
 .news-head p{
     font-weight: 500;
@@ -781,7 +787,7 @@ header i{
     position: absolute;
     top: 2rem;
     left: -1rem;
-    background-color: #4d2740;
+    background-color: #d25826;
     color: #fff;
     font-weight: 700;
     text-align: center;
@@ -796,7 +802,7 @@ header i{
     position: absolute;
     top: 3.6rem;
     left: -0.2rem;
-    background-color: #4d2740;
+    background-color: #d25826;
     width: 4.3rem;
     height: 4rem;
     transform: rotate(35deg);
@@ -853,7 +859,7 @@ footer .footer-box p{
 }
 footer .footer-box i{
     color: #fff;
-    background-color: #4d2740;
+    background-color: #d25826;
     width: 2rem;
     height: 2rem;
     text-align: center;
@@ -864,7 +870,7 @@ footer .footer-box i{
     transition: all 0.3s ease;
 }
 footer .footer-box i:hover{
-    background-color: #361b2d;
+    background-color: #ca3c04;
 }
 footer .footer-box h2{
     color: #f5f5f5;
@@ -882,7 +888,7 @@ footer .footer-box .line{
 }
 footer .footer-box .line-left{
     width: 20%;
-    background-color: #4d2740;
+    background-color: #d25826;
 }
 footer .footer-box .line-right{
     width: 80%;
@@ -916,7 +922,7 @@ footer span{
 }
 footer .foot-services i{
     background-color: transparent;
-    color: #4d2740;
+    color: #d25826;
     font-size: 0.9rem;
     width: 1rem;
     height: 1rem;
@@ -997,6 +1003,6 @@ footer .copyright h6{
     transition: all 0.2s ease-in-out;
   }
   .back-to-top i:hover{
-    background-color: #4d2740;
+    background-color: #d25826;
   }
   /* Back to Top Section */

@@ -24,7 +24,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .top-banner .top-banner-text h6 {
-  color: #e6b59d;
+  color: #d25826;
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 0.5rem;
@@ -57,13 +57,14 @@
 .get-in-touch-left h1 {
   font-size: 4.2rem;
   font-weight: 800;
-  color: #002c41;
+  /* color: #002c41; */
+  color: #d25826;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .get-in-touch-left .line {
   width: 4rem;
   height: 4px;
-  background-color: #e6b59d;
+  background-color: #528363;
   margin-top: 1.2rem;
 }
 .get-in-touch-left p {
@@ -121,8 +122,8 @@
 }
 .get-in-touch-right button {
   color: #fff;
-  background-color: #4d2740;
-  border: 3px solid #4d2740;
+  background-color: #528363;
+  border: 3px solid #528363;
   padding: 0.6rem 1.5rem;
   width: fit-content;
   font-size: 1rem;
@@ -132,7 +133,7 @@
   margin-top: 1rem;
 }
 .get-in-touch-right button:hover {
-  color: #4d2740;
+  color: #528363;
   background-color: #fff;
 }
 .get-in-touch-right input:focus {
@@ -171,7 +172,7 @@
    width: 30%;
 }
 .contact-boxes .contact-box-icon i{
-   background-color: #4d2740;
+   background-color: #528363;
    width: 5.5rem;
    height: 5.5rem;
    border-radius: 50%;
@@ -181,7 +182,7 @@
    text-align: center;
 }
 .contact-boxes .contact-box-icon #fa-envelope{
-   background-color: #e5b59e;
+   background-color: #d25826;
 }
 .contact-boxes .contact-box-desc{
    width: 70%;

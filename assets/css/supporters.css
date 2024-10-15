@@ -44,29 +44,34 @@
   /*  Supporters Section Starts */
     .supporters{
         padding: 5rem 3rem;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
         overflow: hidden;
     }
-    .supporter-card{
-        width: 42%;
-        background-color: #efefef;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 12px;
-        margin-bottom: 4rem;
-    }
-    .supporter-card h2{
+    .supporters h2{
         font-size: 2rem;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 600;
         color: #d25826;
-        margin-top: 0.8rem;
+    }
+    .supporters .line{
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: #d25826;
+        margin: 0.5rem 0 3rem 0;
+    }
+    .supporter-card{
+        width: 25%;
+        background-color: #efefef;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-bottom: 2.5rem;
     }
     .supporter-card img{
-        margin-top: 1rem;
+        width: 100%;
         border-radius: 7px;
         margin-bottom: 1.5rem;
     }
@@ -74,4 +79,5 @@
         font-family: 'Montserrat', Arial, sans-serif;
         font-weight: 500;
         font-size: 1.3rem;
+        margin: 0;
     }

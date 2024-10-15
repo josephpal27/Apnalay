@@ -112,13 +112,14 @@ header i{
    width: 90%;
    margin-left: 5%;
    background-color: #fff;
-   padding: 2rem 0;
+   padding: 1.4rem 0;
    text-align: center;
    border-bottom: 3px dashed #528363;
    position: absolute;
    bottom: 0;
 }
 .top-cards .card .card-desc h4{
+    font-size: 1.35rem;
     font-weight: 800;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -173,6 +174,7 @@ header i{
     font-size: 2.8rem;
     font-weight: 800;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 2rem;
 }
 .image-para-right h1 span{
     /* color: #e5b59e; */
@@ -599,7 +601,7 @@ header i{
 /* Contact Form Section Starts */
 .contact-bg{
     background-color: #f5f5f5;
-    padding: 6rem 0;
+    padding: 2.5rem 0 6rem 0;
     overflow: hidden;
 }
 .contact{
@@ -678,9 +680,9 @@ header i{
 }
 .contact-right{
     width: 50%;
-    background-color: #d25826;
+    /* background-color: #d25826; */
     color: #fff;
-    padding: 5rem 4rem;
+    /* padding: 5rem 4rem; */
     overflow: hidden;
 }
 .contact-right h1{

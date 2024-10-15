@@ -70,6 +70,10 @@
         overflow: hidden;
         margin-bottom: 2.5rem;
     }
+    .supporter-card-row{
+      display: flex;
+      gap: 2.5rem;
+    }
     .supporter-card img{
         width: 100%;
         border-radius: 7px;

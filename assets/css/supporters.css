@@ -1,0 +1,87 @@
+/* Top Banner Starts */
+.top-banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .top-banner img {
+    width: 100%;
+  }
+  .top-banner .top-banner-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-banner .top-banner-text h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .top-banner .top-banner-text h6 {
+    color: #d25826;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .top-banner .top-banner-text i {
+    color: #fff;
+    margin: 0 3px;
+  }
+  .top-banner .top-banner-text a {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Top Banner Ends */
+
+
+  /*  Supporters Section Starts */
+    .supporters{
+        padding: 5rem 3rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .supporter-card{
+        width: 42%;
+        background-color: #efefef;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+        margin-bottom: 4rem;
+    }
+    .supporter-card h2{
+        font-size: 2rem;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        color: #d25826;
+        margin-top: 0.8rem;
+    }
+    .supporter-card img{
+        margin-top: 1rem;
+        border-radius: 7px;
+        margin-bottom: 1.5rem;
+    }
+    .supporter-card p{
+        font-family: 'Montserrat', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    /* .supporter-card:hover {
+        background-color: #d25826;
+    }
+    .supporter-card:hover h2 {
+        color: #fff;
+    }
+    .supporter-card:hover p {
+        color: #fff;
+    } */
+  /*  Supporters Section Ends */

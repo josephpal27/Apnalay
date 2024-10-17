@@ -1,3 +1,4 @@
+
 // Functionality For Back to Top Btn
 let backToTopDiv = document.querySelector(".back-to-top");
 let backToTopBtn = document.querySelector(".back-to-top .fa-arrow-up");

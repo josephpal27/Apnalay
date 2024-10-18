@@ -21,6 +21,26 @@ header i{
     margin-right: 0.1rem;
     font-size: 1.1rem;
 }
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+    header{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    header{
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+    header i{
+        margin-right: 0.05rem;
+        font-size: 0.6rem;
+    }
+}
 /* Header Ends */
 
 
@@ -66,6 +86,31 @@ header i{
         margin-left: 0;
     }
 }
+@media screen and (min-width: 992px) and (max-width: 1400px){
+    .navbar {
+        overflow: hidden;
+    }
+    .navbar-nav .nav-link {
+        font-size: 0.9rem !important;
+    }
+    .navbar-brand img {
+        max-height: 70px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1093px){
+    .navbar-nav .nav-link {
+        font-size: 0.8rem !important;
+        padding: 0.5rem 0.8rem !important;
+    }
+}
+@media screen and (max-width: 992px){
+    .navbar {
+        padding: 0.3rem 0.5rem;
+    }
+    .navbar-brand img {
+        max-height: 65px;
+    }
+}
 /* Navbar Ends */
 
 /* Banner Starts */
@@ -76,6 +121,12 @@ header i{
 .banner img{
     width: 100%;
     height: 95vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .banner img{
+        height: auto;
+    }
 }
 /* Banner Ends */
 
@@ -122,6 +173,26 @@ header i{
     font-size: 1.35rem;
     font-weight: 800;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    .top-cards{
+        padding: 2rem 0.5rem;
+    }
+    .top-cards .card-row{
+        flex-direction: column;
+    }
+    .top-cards .card{
+        width: 100%;
+        padding-bottom: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    .top-cards .card .card-desc{
+        padding: 1.1rem 0;
+     }
+    .top-cards .card .card-desc h4{
+        font-size: 1.1rem;
+    }
 }
 /* Top Cards Ends */
 
@@ -205,6 +276,49 @@ header i{
 .image-para-right button:hover{
     background-color: #fff;
     color: #000;
+}
+
+@media screen and (max-width: 576px) {
+    .image-para{
+        flex-direction: column;
+        padding: 0.7rem 0.5rem;
+    }
+    .image-para-left{
+        width: 100%;
+    }
+    .image-para-left img{
+        margin-left: 0;
+    }
+    .image-para-left .labal-text{
+        bottom: 4rem;
+        padding: 1rem 0 0.7rem 0;
+        width: 97%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .image-para-left .labal-shape{
+        bottom: 2.5rem;
+    }
+    .image-para-left .labal-text h3{
+        font-size: 1.2rem;
+        padding-left: 2.5rem;
+    }
+    .image-para-right{
+        width: 100%;
+    }
+    .image-para-right h1{
+        font-size: 1.6rem;
+        margin: 2rem 0 1.2rem 0;
+    }
+    .image-para-right p{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    .image-para-right button{
+        margin-top: 0.7rem;
+        font-size: 0.8rem;
+        padding: 0.3rem 1.5rem;
+    }
 }
 /* Image Para Section Ends Here */
 
@@ -296,6 +410,46 @@ header i{
 .feature-card-text:hover p{
     color: #fff;
 }
+
+
+@media screen and (max-width: 576px) {
+    .features{
+        padding: 2rem 0;
+        margin-top: 2.5rem;
+    }
+    .features-head h1{
+        font-size: 2rem;
+    }
+    .features-head p{
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        width: 100%;
+        margin-left: 0;
+    }
+    .features-head i{
+        font-size: 2rem;
+    }
+    .features-cards-row{
+        margin-top: 1.2rem;
+    }
+    .features-cards-row .feature-card{
+       width: 100%;
+       margin-bottom: 1.5rem;
+    }
+    .feature-card-text{
+        padding: 0 0.5rem;
+    }
+    .feature-card-text i{
+        font-size: 2rem;
+    }
+    .feature-card-text h2{
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+    .feature-card-text p{
+        font-size: 0.9rem;
+    }
+}
 /* Features Section Ends */
 
 
@@ -343,6 +497,34 @@ header i{
     font-size: 1.2rem;
     margin-top: 0.5rem;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    .video-text{
+        flex-direction: column;
+    }
+    .video-text-left{
+        width: 100%;
+        padding: 0;
+    }
+    .video-text-right{
+        width: 100%;
+        padding: 2rem 0.5rem 1.5rem 0.5rem;
+    }
+    .video-text-right h1{
+        font-size: 2rem;
+    }
+    .video-text-right p{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .video-text-list{
+        margin-top: 1.3rem;
+    }
+    .video-text-list li{
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
 }
 /* Video Text Section Ends */
 
@@ -442,6 +624,50 @@ header i{
 .card-slider .card button:hover{
     color: #fff;
     background-color: #528363;
+}
+
+
+@media screen and (max-width: 576px) {
+    .services-bg{
+        padding: 3rem 0 4rem 0;
+    }
+    .services-head h1{
+        font-size: 2rem;
+    }
+    .services-head p{
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        width: 100%;
+        margin-left: 0;
+    }
+    .services-head i{
+        font-size: 2rem;
+    }
+    .slider-container {
+        margin-top: 1.5rem;
+    }
+    .slick-prev, 
+.slick-next {
+    display: none !important;
+}
+.slick-slide {
+    margin: 0 10px;
+}
+.service-card-img{
+    height: auto;
+}
+.card-slider .card h3{
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+.card-slider .card p{
+    font-size: 1rem;
+}
+.card-slider .card button{
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+    margin-top: 0.5rem;
+}
 }
 /* Services Section Ends */
 
@@ -680,9 +906,7 @@ header i{
 }
 .contact-right{
     width: 50%;
-    /* background-color: #d25826; */
     color: #fff;
-    /* padding: 5rem 4rem; */
     overflow: hidden;
 }
 .contact-right h1{
@@ -723,6 +947,42 @@ header i{
 }
 .testimy .profile h6{
     color: #c7c5c5;
+}
+
+@media screen and (max-width: 576px) {
+    .contact-bg{
+        padding: 0 0 0.5rem 0;
+        background-color: #fff;
+    }
+    .contact{
+        flex-direction: column;
+        padding: 0;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    .contact-left h1{
+        font-size: 1.5rem;
+        padding: 1rem 0 1.2rem 1.5rem;
+    }
+    .contact-left form{
+        padding: 0.6rem 1rem;
+    }
+    .contact-left form input,textarea, select{
+        padding: 0.6rem 1rem;
+        margin-bottom: 0.8rem;
+        font-size: 1.05rem;
+    }
+    .contact-left button{
+        padding: 0.5rem 1.3rem;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+    .contact-right{
+        width: 100%;
+        margin-top: 2rem;
+        height: 60vh;
+    }
 }
 /* Contact Form Section Ends */
 
@@ -978,6 +1238,39 @@ footer .copyright h6{
     font-size: 1.1rem;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 576px) {
+    footer{
+        padding: 0;
+        margin-top: 0;
+    }
+    footer .footer{
+        flex-direction: column;
+    }
+    footer .footer-box{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    footer h3{
+        font-size: 1.05rem;
+    }
+    footer .footer-box p{
+        font-size: 1.1rem;
+    }
+    footer span{
+        font-size: 0.8rem;
+    }
+    footer .foot-services h3{
+        font-size: 1rem;
+    }
+    footer .copyright{
+        padding: 1rem 0 0.7rem 0;
+        margin-top: 1.5rem;
+    }
+    footer .copyright h6{
+        font-size: 0.8rem;
+    }
+}
 /* Footer Ends */
 
 /* Back to Top Section */
@@ -1007,5 +1300,20 @@ footer .copyright h6{
   }
   .back-to-top i:hover{
     background-color: #d25826;
+  }
+
+  @media screen and (max-width: 576px) {
+    .back-to-top i{
+        font-size: 0.8rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding-top: 4px;
+      }
+      .back-to-top{
+        right: 0.5rem;
+      }
+      .back-to-top.show {
+        bottom: 0.5rem;
+      }
   }
   /* Back to Top Section */

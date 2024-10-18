@@ -335,6 +335,16 @@
                 autoplaySpeed: 1500,
                 pauseOnHover: false,
                 pauseOnFocus: false,
+                responsive: [
+                {
+                    breakpoint: 576,  // When screen width is 576px or less
+                    settings: {
+                        slidesToShow: 1,  // Show only 1 card
+                        slidesToScroll: 1,  // Scroll 1 card at a time
+                        arrows: true  // Keep the navigation arrows
+                    }
+                }
+            ]
             });
         });
     </script>

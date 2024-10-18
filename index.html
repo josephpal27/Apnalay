@@ -34,7 +34,7 @@
      <header style="background-color: #d25826; color: #fff;">
         <div class="header container-xl">
             <div class="header-option" data-aos="fade" data-aos-duration="1000"><i class="fa-solid fa-phone"></i> +91 9331042237</div>
-            <div class="header-option" data-aos="fade" data-aos-duration="1000"><i class="fa-solid fa-envelope-circle-check"></i> info@apnalay.com</div>
+            <div class="header-option" data-aos="fade" data-aos-duration="1000"><i class="fa-solid fa-envelope-circle-check"></i> <a href="mailto:info@apnalay.com">info@apnalay.com</a></div>
             <div class="header-option" data-aos="fade" data-aos-duration="1000"><i class="fa-solid fa-location-dot"></i> Thakurpukur, Kolkata</div>
         </div>
      </header>
@@ -94,7 +94,7 @@
                 <img src="assets/images/banner-2.webp" class="d-block w-100" alt="image">
             </div>
             <div class="carousel-item">
-                <img src="assets/images/Apnalay-cover-2.0.jpg" class="d-block w-100" alt="image">
+                <img src="assets/images/banner-3.webp" class="d-block w-100" alt="image">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -105,8 +105,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
-</section>
+     </div>
+    </section>
 
    <!-- Banner Ends Here -->
 
@@ -149,7 +149,7 @@
    <!-- Image Para Section Starts Here -->
     <section class="image-para container-xl"> 
         <div class="image-para-left">
-            <img src="assets/images/apnalay.jpg" alt="image" loading="lazy" data-aos="fade" data-aos-duration="1000">
+            <img src="assets/images/apnalay.webp" alt="image" loading="lazy" data-aos="fade" data-aos-duration="1000">
             <div class="labal-text">
                 <h3 data-aos="fade-right" data-aos-duration="1400">Professional Care You Can Trust</h3>
             </div>
@@ -243,7 +243,7 @@
    <!-- Video Text Section Starts Here -->
     <section class="video-text">
         <div class="video-text-left">
-            <img src="assets/images/interior.jpg" alt="image" loading="lazy" data-aos="fade" data-aos-duration="1000">
+            <img src="assets/images/interior.webp" alt="image" loading="lazy" data-aos="fade" data-aos-duration="1000">
         </div>
         <div class="video-text-right">
             <h1 data-aos="fade" data-aos-duration="1000">We make a Difference in your lives</h1>
@@ -290,7 +290,7 @@
                     <!-- Card 1 -->
                     <div class="card">
                         <div class="service-card-img">
-                            <img src="assets/images/independent-living.jpg" alt="Card-Image" loading="lazy">
+                            <img src="assets/images/independent-living.webp" alt="Card-Image" loading="lazy">
                         </div>
                         <h3>Independent Living</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit Lorem ipsum dolor sit amet Lorem, ipsum dolor..</p>
@@ -308,7 +308,7 @@
                     <!-- Card 3 -->
                     <div class="card">
                         <div class="service-card-img">
-                            <img src="assets/images/resident-care.jpg" alt="Card-Image" loading="lazy">
+                            <img src="assets/images/resident-care.webp" alt="Card-Image" loading="lazy">
                         </div>
                         <h3>Resident Care</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit Lorem ipsum dolor sit amet Lorem, ipsum dolor..</p>
@@ -317,7 +317,7 @@
                     <!-- Card 4 -->
                     <div class="card">
                         <div class="service-card-img">
-                            <img src="assets/images/asisted-living.jpg" alt="Card-Image" loading="lazy">
+                            <img src="assets/images/asisted-living.webp" alt="Card-Image" loading="lazy">
                         </div>
                         <h3>Assisted Living</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit Lorem ipsum dolor sit amet Lorem, ipsum dolor..</p>
@@ -432,8 +432,8 @@
    <!-- Contact Form Section Starts Here -->
     <section class="contact-bg">
         <div class="contact container-xl">
-            <div class="contact-left">
-                <h1 data-aos="fade" data-aos-duration="1000">Get In Touch</h1>
+            <div class="contact-left" data-aos="fade" data-aos-duration="1000">
+                <h1>Get In Touch</h1>
                 <form action="">
                     <input type="text" name="name" placeholder="Name*" data-aos="fade" data-aos-duration="1000">
                     <input type="email" name="email" placeholder="Email*" data-aos="fade" data-aos-duration="1000">
@@ -445,7 +445,7 @@
                         <option value="Assisted Living">Assisted Living</option>
                     </select>
                     <textarea name="msg" placeholder="Message*" data-aos="fade" data-aos-duration="1000"></textarea>
-                    <button>Submit Now</button>
+                    <button data-aos="fade" data-aos-duration="1000">Submit Now</button>
                 </form>
             </div>
             <div class="contact-right" data-aos="fade" data-aos-duration="1000">
@@ -676,10 +676,11 @@
 
     <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <!-- Bootstrap JS Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <!-- AOS Animation JS Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
     <!-- jQuery and Slick JS -->
@@ -700,17 +701,21 @@
                 autoplaySpeed: 1500,
                 pauseOnHover: false,
                 pauseOnFocus: false,
+                responsive: [
+                {
+                    breakpoint: 576,  // When screen width is 576px or less
+                    settings: {
+                        slidesToShow: 1,  // Show only 1 card
+                        slidesToScroll: 1,  // Scroll 1 card at a time
+                        arrows: true  // Keep the navigation arrows
+                    }
+                }
+            ]
             });
         });
     </script>
 
     
-
-    <!-- AOS Animation JS Link -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
     <script>
         $('.card-slider').on('init', function() {
@@ -724,7 +729,11 @@
         }, 2000);
     </script>
        
-    
+     <!-- Bootstrap JS Link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"></script>
+     
     <!-- JS Link -->
     <script src="assets/js/script.js"></script>
 

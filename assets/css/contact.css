@@ -145,6 +145,55 @@
 .get-in-touch-right select:focus {
   outline: 3px solid #4d2740;
 }
+
+@media screen and (max-width: 576px) {
+  .get-in-touch {
+    flex-direction: column;
+    padding: 1.5rem 0;
+  }
+  .get-in-touch-left {
+    width: 100%;
+    padding: 1rem 0.5rem 2rem 0.5rem;
+  }
+  .get-in-touch-left h6 {
+    font-size: 1.2rem;
+  }
+  .get-in-touch-left h1 {
+    font-size: 2.3rem;
+  }
+  .get-in-touch-left .line {
+    width: 3.5rem;
+    margin-top: 1rem;
+  }
+  .get-in-touch-left p {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+  }
+  .get-in-touch-right {
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+  }
+  .get-in-touch-right .input-row {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .get-in-touch-right input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .get-in-touch-right select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1.8rem;
+  }
+  .get-in-touch-right button {
+    padding: 0.5rem 1.3rem;
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+  }
+}
 /* Get In Touch Ends Here */
 
 
@@ -197,6 +246,32 @@
    font-size: 1.3rem;
    color: #1b4b60;
 }
+
+@media screen and (max-width: 576px) {
+  .contact-boxes{
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    flex-direction: column;
+}
+.contact-boxes .contact-box{
+   padding: 1.1rem 1rem;
+   width: 100%;
+   margin-bottom: 1.5rem;
+}
+.contact-boxes .contact-box-icon i{
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  line-height: 5rem;
+}
+.contact-boxes .contact-box-desc p{
+  font-size: 1.2rem;
+}
+.contact-boxes .contact-box-desc h5{
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #1b4b60;
+}
+}
 /* Contact Boxes End */
 
 
@@ -211,6 +286,6 @@
 
 /* Footer Starts */
 footer{
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 /* Footer Ends */

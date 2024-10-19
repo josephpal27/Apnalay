@@ -1,3 +1,10 @@
+// Functionality For Banner
+var myCarousel = document.querySelector('#carouselExampleRide');
+var carousel = new bootstrap.Carousel(myCarousel, {
+    pause: false // Disable pause on hover
+});
+
+// -----------------------------------------------------------------------------------------------------------------------------------
 
 // Functionality For Back to Top Btn
 let backToTopDiv = document.querySelector(".back-to-top");

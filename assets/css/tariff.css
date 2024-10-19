@@ -97,11 +97,50 @@
     margin-left: -9.2px;
     margin-top: 2rem;
   }
+
+  @media screen and (max-width: 576px) {
+    .tariff{
+      padding: 2rem 0.6rem;
+    }
+    .tariff-section{
+      flex-direction: column;
+      margin-top: 1.3rem;
+    }
+    .tariff-left{
+      width: 100%;
+    }
+    .tariff h5{
+      font-size: 0.9rem;
+    }
+    .tariff h3{
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    .tariff-left table{
+      width: 100%;
+    }
+    .tariff-left th, td {
+      padding: 0.5rem;
+      font-size: 0.5rem;
+    }
+    .tariff-right{
+      width: 100%;
+      margin-top: 1.2rem;
+    }
+    .tariff-right #tariff-img{
+      width: 100%;
+    }
+    .tariff-right #down_bro{
+      width: 100vw;
+      margin-left: 0;
+      margin-top: 0.8rem;
+    }
+  }
   /* Tariff Section Ends */
 
 
   /* Footer Starts */
   footer{
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   /* Footer Ends */

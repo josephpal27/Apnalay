@@ -100,6 +100,35 @@
     color: #fff;
     background-color: #528363;
 }
+
+@media screen and (max-width: 576px) {
+    .our-services{
+        padding: 3rem 0.6rem;
+        flex-direction: column;
+    }
+    .our-services .card{
+        width: 100%;
+        padding-bottom: 2rem;
+        margin-bottom: 1.3rem;
+    }
+    .service-card-img{
+        height: auto;
+    }
+    .our-services .card h3{
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+    }
+    .our-services .card p{
+        font-size: 1rem;
+        margin-top: 0.3rem;
+        padding: 0 0.5rem;
+    }
+    .our-services .card button{
+        font-size: 0.9rem;
+        padding: 0.5rem 1.8rem;
+        margin-top: 0.5rem;
+    }
+}
 /* Services Cards Section Ends */
 
 

@@ -48,7 +48,10 @@
 .our-services{
     padding: 6rem 0;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
 }
 .our-services .card{
     width: 32%;
@@ -58,6 +61,7 @@
     border: none;
     overflow: hidden;
     padding-bottom: 2.2rem;
+    margin-bottom: 1.7rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .service-card-img{
@@ -72,7 +76,7 @@
     scale: 1.2;
 }
 .our-services .card h3{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: #022b48;
     margin-top: 1.7rem;
@@ -85,6 +89,8 @@
     padding: 0 0.9rem;
 }
 .our-services .card button{
+    width: max-content;
+    align-self: center;
     font-size: 1rem;
     font-weight: 500;
     border: 3px solid #528363;
@@ -130,6 +136,70 @@
     }
 }
 /* Services Cards Section Ends */
+
+
+/* Modal Section Starts Here */
+.modal{
+    width: 100%;
+    height: 0;
+    display: flex;
+    background-color: #efefef;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 1;
+    overflow: hidden;
+    transition: all 0.7s ease;
+}
+.modal-left{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s ease;
+    padding: 0 1.2rem 0 2.5rem;
+}
+
+.modal-left h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #d25826;
+    margin-bottom: 0.8rem;
+}
+.modal-left p{
+    margin: 0;
+    margin-bottom: 0.3rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.05rem;
+}
+
+.modal-right i{
+   color: #585858;
+   font-size: 2.3rem;
+   transition: all 0.2s ease;
+   cursor: pointer;
+   margin-top: 5rem;
+}
+.modal-right i:hover{
+   color: rgb(233, 1, 1);
+}
+
+.modal-right{
+    width: 35%;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-right img{
+    width: 100%;
+    /* height: 100%;
+    object-fit: contain; */
+}
+/* Modal Section Ends Here */
 
 
 /* Footer Starts */

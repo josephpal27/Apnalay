@@ -44,9 +44,10 @@
 /* Services Cards Section Starts */
 .our-services-bg{
     background-color: #f5f5f5;
+    padding: 0 0 5rem 0;
 }
 .our-services{
-    padding: 6rem 0;
+    padding: 6rem 0 4rem 0;
     display: flex;
     /* justify-content: space-between; */
     justify-content: center;
@@ -200,6 +201,56 @@
     object-fit: contain; */
 }
 /* Modal Section Ends Here */
+
+
+/*  Activities Section Starts Here */
+.activities {
+    overflow: hidden;
+}
+.activities h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: #d25826;
+}
+.activities .line{
+    width: 100%;
+    height: 2px;
+    background-color: #c1c1c1;
+    border-radius: 8px;
+}
+
+.activities-box{
+    display: flex;
+    justify-content: space-between;
+}
+.activities-left{
+    width: 55%;
+}
+.activities-left h3{
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0.8rem;
+    font-style: italic;
+    color: #d25826;
+}
+.activities-left p{
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin: 0;
+}
+.activities-right{
+    width: 42%;
+    display: flex;
+    align-items: center;
+}
+.activities-right img{
+    border-radius: 8px;
+}
+/*  Activities Section Ends Here */
 
 
 /* Footer Starts */

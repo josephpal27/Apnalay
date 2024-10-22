@@ -206,6 +206,57 @@
             ">Read More</button>
         </div>
     </div>
+    <!-- Activities -->
+    <div class="activities container-xl">
+        <h2 data-aos="fade-right" data-aos-duration="1000">Activities</h2>
+        <div class="line"></div>
+
+        <div class="activities-box">
+            <!-- Left -->
+            <div class="activities-left">
+                <h3 data-aos="fade" data-aos-duration="1000">We believe in nurturing the body and mind - and we provide a range of activities and entertainment on site such as :</h3>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; Books, films and CD library</p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; Music</p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; Games area for board games and card table</p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; Interactive crafts (from origami to weaving, and paper mache to embroidery)</p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; Painting for therapy, mud sculpture</p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; Nature walks, gardening</p>
+
+                <h3 data-aos="fade" data-aos-duration="1000">On a social note at the premises :</h3>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; <b>Khushi</b> – a vocational training centre for the under privileged students. We undertake computer & dance classes.</p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; <b>Medical Camps</b> – We undertake health check-up camps periodically.</p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; <b>Talks, Awareness Camps & Workshops on miscellaneous issues</b></p>
+                <p data-aos="fade" data-aos-duration="1000"> &#x2705; <b>We welcome the residents to volunteer and participate in any or all of their choice.</b></p>
+            </div>
+            <!-- Right -->
+            <div class="activities-right">
+                    <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                        data-bs-interval="2000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/card-1.jpg" class="d-block w-100" alt="image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/card-2.jpg" class="d-block w-100" alt="image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/card-3.jpg" class="d-block w-100" alt="image">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+            </div>
+        </div>
+    </div>
     </section>
     <!-- Services Cards Section Ends Here -->
 
@@ -400,7 +451,12 @@
         });
     </script>
 
-    
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleRide');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false // Disable pause on hover
+        });
+    </script>
 
     <!-- AOS Animation JS Link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

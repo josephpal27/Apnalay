@@ -38,6 +38,19 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 576px) {
+  .top-banner img{
+      height: 8rem;
+  }
+  .top-banner .top-banner-text h1{
+      font-size: 2rem;
+  }
+  .top-banner .top-banner-text h6{
+      font-size: 0.9rem;
+      margin-top: 0.2rem;
+  }
+}
 /* Top Banner Ends */
 
 /*  Supporters Section Starts */

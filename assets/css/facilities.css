@@ -38,6 +38,19 @@
     color: #fff;
     text-decoration: none;
 }
+
+@media screen and (max-width: 576px) {
+    .top-banner img{
+        height: 8rem;
+    }
+    .top-banner .top-banner-text h1{
+        font-size: 2.3rem;
+    }
+    .top-banner .top-banner-text h6{
+        font-size: 0.9rem;
+        margin-top: 0;
+    }
+}
 /* Top Banner Ends */
 
 
@@ -200,6 +213,35 @@
     /* height: 100%;
     object-fit: contain; */
 }
+
+@media screen and (max-width: 576px) {
+    .modal{
+        flex-direction: column;
+    }
+    .modal-left{
+        width: 100%;
+        padding: 1.1rem 0.5rem 0 0.5rem;
+    }
+    .modal-left h2{
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .modal-left p{
+        margin-bottom: 0.3rem;
+        font-size: 0.85rem;
+    }
+    .modal-right{
+        width: 100%;
+        padding: 0;
+    }
+    .modal-right img{
+        display: none;
+    }
+    .modal-right i{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+     }
+}
 /* Modal Section Ends Here */
 
 
@@ -249,6 +291,30 @@
 }
 .activities-right img{
     border-radius: 8px;
+}
+
+@media screen and (max-width: 576px) {
+    .activities h2{
+        font-size: 1.5rem;
+    }
+    .activities-box{
+        flex-direction: column-reverse;
+    }
+    .activities-right{
+        width: 100%;
+        margin-top: 1.7rem;
+    }
+    .activities-left{
+        width: 100%;
+    }
+    .activities-left h3{
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+    .activities-left p{
+        font-size: 0.9rem;
+    }
 }
 /*  Activities Section Ends Here */
 

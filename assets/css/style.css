@@ -573,7 +573,7 @@ header a{
     border-radius: 8px;
     border: none;
     overflow: hidden;
-    padding-bottom: 2.2rem;
+    /* padding-bottom: 2.2rem; */
 }
 .slick-prev, 
 .slick-next {
@@ -592,6 +592,7 @@ header a{
 .service-card-img img{
     width: 100%;
     transition: all 1s ease;
+    border-radius: 8px;
 }
 .card-slider .card:hover img{
     scale: 1.2;
@@ -626,6 +627,25 @@ header a{
     background-color: #528363;
 }
 
+.service-btn{
+    text-align: center;
+}
+.service-btn button{
+    font-size: 1rem;
+    font-weight: 500;
+    border: 3px solid #528363;
+    color: #528363;
+    background-color: #fff;
+    padding: 0.7rem 2.3rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+.service-btn button:hover{
+    color: #fff;
+    background-color: #528363;
+}
 
 @media screen and (max-width: 576px) {
     .services-bg{
@@ -667,6 +687,10 @@ header a{
     font-size: 0.9rem;
     padding: 0.5rem 2rem;
     margin-top: 0.5rem;
+}
+.service-btn button{
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
 }
 }
 /* Services Section Ends */
@@ -982,6 +1006,7 @@ header a{
         width: 100%;
         margin-top: 2rem;
         height: 60vh;
+        padding: 0 0.7rem 0.3rem 0.7rem;
     }
 }
 /* Contact Form Section Ends */

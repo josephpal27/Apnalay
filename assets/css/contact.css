@@ -38,6 +38,19 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 576px) {
+  .top-banner img{
+      height: 8rem;
+  }
+  .top-banner .top-banner-text h1{
+      font-size: 2.3rem;
+  }
+  .top-banner .top-banner-text h6{
+      font-size: 0.9rem;
+      margin-top: 0;
+  }
+}
 /* Top Banner Ends */
 
 /* Get In Touch Starts Here */
@@ -72,6 +85,22 @@
   margin-top: 1.8rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(106, 106, 106);
+}
+.get-in-touch-left button{
+  color: #528363;
+  background-color: #fff;
+  border: 3px solid #528363;
+  padding: 0.6rem 1.5rem;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Montserrat", Arial, sans-serif;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+}
+.get-in-touch-left button:hover{
+  color: #fff;
+  background-color: #528363;
 }
 .get-in-touch-right {
   width: 50%;
@@ -281,11 +310,23 @@
     margin-top: 1rem;
     padding: 0;
 }
+
+@media screen and (max-width: 576px) {
+  .contact-location{
+    padding: 0 0.5rem;
+}
+}
 /*  Map Section Ends */
 
 
 /* Footer Starts */
 footer{
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  footer{
+    margin-top: 0.5rem;
+}
 }
 /* Footer Ends */

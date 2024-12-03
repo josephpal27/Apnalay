@@ -16,6 +16,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 100;
     }
     .top-banner .top-banner-text h1{
         color: #fff;
@@ -37,6 +38,14 @@
     .top-banner .top-banner-text a{
         color: #fff;
         text-decoration: none;
+    }
+    .top-banner .banner-layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.415);
+        position: absolute;
+        top: 0;
+        z-index: 1;
     }
 
     @media screen and (max-width: 576px) {

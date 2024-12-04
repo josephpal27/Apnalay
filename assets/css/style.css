@@ -4,11 +4,12 @@ padding: 0;
 box-sizing: border-box;
 scroll-behavior: smooth;
  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+ font-family: "Jost", serif;
 }
 
 /* Header Starts */
 header{
-    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: 'Montserrat', Arial, sans-serif; */
     font-weight: 700;
     padding: 0.7rem 0;
     overflow: hidden;
@@ -59,7 +60,7 @@ header a{
     border-radius: 30px;
     color: #000;
     font-weight: 600;
-    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: 'Montserrat', Arial, sans-serif; */
     transition: all 0.2s ease;
 }
 .navbar-nav .nav-item:hover .nav-link {
@@ -236,10 +237,11 @@ header a{
    border-top-right-radius: 10px;
 }
 .top-cards .card .card-desc h4{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 800;
     color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.8rem;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 @media screen and (min-width: 576px) and (max-width: 1400px) {
@@ -279,6 +281,7 @@ header a{
      }
     .top-cards .card .card-desc h4{
         font-size: 1rem;
+        line-height: 1.5rem;
     }
 }
 
@@ -375,7 +378,7 @@ header a{
     border: 4px solid #528363;
     margin-top: 1.5rem;
     padding: 0.3rem 2rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     transition: all 0.2s ease;
 }
 .image-para-right button:hover{
@@ -440,7 +443,7 @@ header a{
 }
 .features-head h1{
     font-weight: 800;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 2.7rem;
 }
 .features-head h1 span{
@@ -448,7 +451,7 @@ header a{
 }
 .features-head p{
     font-weight: 500;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 1.4rem;
     margin-top: 1rem;
     width: 70%;
@@ -498,13 +501,13 @@ header a{
     font-size: 1.7rem;
     font-weight: 700;
     margin-top: 1.5rem;
-    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: 'Montserrat', Arial, sans-serif; */
 }
 .feature-card-text p{
     font-size: 1rem;
     font-weight: 500;
     margin-top: 0.5rem;
-    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: 'Montserrat', Arial, sans-serif; */
 }
 .feature-card-text:hover{
     /* background-color: #d7591f65; */
@@ -584,7 +587,7 @@ header a{
 }
 .video-text-right p{
     font-size: 1.2rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     margin-top: 1.7rem;
 }
 .video-text-list{
@@ -601,7 +604,7 @@ header a{
 .video-text-list li{
     font-size: 1.2rem;
     margin-top: 0.5rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 @media screen and (max-width: 576px) {
@@ -645,7 +648,7 @@ header a{
 }
 .services-head h1{
     font-weight: 800;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 2.7rem;
 }
 .services-head h1 span{
@@ -653,7 +656,7 @@ header a{
 }
 .services-head p{
     font-weight: 500;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 1.4rem;
     margin-top: 1rem;
     width: 70%;
@@ -711,7 +714,7 @@ header a{
 .card-slider .card p{
     font-size: 1.2rem;
     color: #585858;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     margin-top: 0.8rem;
     padding: 0 0.9rem;
 }
@@ -724,7 +727,7 @@ header a{
     padding: 0.7rem 2.3rem;
     margin-top: 0.8rem;
     border-radius: 5px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     transition: all 0.2s ease;
 }
 .card-slider .card button:hover{
@@ -744,7 +747,7 @@ header a{
     padding: 0.7rem 2.3rem;
     margin-top: 1.5rem;
     border-radius: 5px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     transition: all 0.2s ease;
 }
 .service-btn button:hover{
@@ -820,7 +823,7 @@ header a{
 }
 .mission-left p{
     font-size: 1.2rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     margin-top: 1.5rem;
 }
 .mission-cards{
@@ -837,10 +840,10 @@ header a{
     font-size: 2.7rem;
     font-weight: 700;
     margin-top: 0.9rem;
-    font-family: 'Montserrat', Arial, sans-serif;
+    /* font-family: 'Montserrat', Arial, sans-serif; */
 }
 .mission-cards .box h5{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-weight: 700;
 }
 .mission-right{
@@ -864,7 +867,7 @@ header a{
 }
 .team-head h1{
     font-weight: 800;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 2.7rem;
 }
 .team-head h1 span{
@@ -872,7 +875,7 @@ header a{
 }
 .team-head p{
     font-weight: 500;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 1.4rem;
     margin-top: 1rem;
     width: 70%;
@@ -920,7 +923,7 @@ header a{
 }
 .team-card .bottom h3{
     font-weight: 800;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 1.6rem;
     transition: all 0.2s ease;
 }
@@ -929,7 +932,7 @@ header a{
 }
 .team-card .bottom p{
     font-weight: 500;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 1.1rem;
     color: #585858;
 }
@@ -1025,7 +1028,7 @@ header a{
   width: fit-content;
   font-size: 1rem;
   font-weight: 600;
-  font-family: 'Montserrat', Arial, sans-serif;
+  /* font-family: 'Montserrat', Arial, sans-serif; */
   transition: all 0.2s ease;
   margin-top: 1rem;
 }
@@ -1072,7 +1075,7 @@ header a{
 .testimy .profile h5{
     font-size: 1.6rem;
     font-weight: 700;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 .testimy .profile h6{
     color: #c7c5c5;
@@ -1127,7 +1130,7 @@ header a{
 }
 .news-head h1{
     font-weight: 800;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 2.7rem;
 }
 .news-head h1 span{
@@ -1135,7 +1138,7 @@ header a{
 }
 .news-head p{
     font-weight: 500;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 1.4rem;
     margin-top: 1rem;
     width: 70%;
@@ -1328,7 +1331,7 @@ footer .foot-services h3{
     font-size: 1.2rem;
     transition: all 0.2s ease;
     font-weight: 400;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 footer .foot-services h3{
     color: #bab9b9;

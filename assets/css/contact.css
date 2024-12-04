@@ -16,19 +16,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 100;
 }
 .top-banner .top-banner-text h1 {
   color: #fff;
   font-size: 3.5rem;
   font-weight: 800;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 .top-banner .top-banner-text h6 {
   color: #d25826;
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 0.5rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 .top-banner .top-banner-text i {
   color: #fff;
@@ -37,6 +38,14 @@
 .top-banner .top-banner-text a {
   color: #fff;
   text-decoration: none;
+}
+.top-banner .banner-layer{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.415);
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
 @media screen and (max-width: 576px) {
@@ -72,7 +81,7 @@
   font-weight: 800;
   /* color: #002c41; */
   color: #d25826;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 .get-in-touch-left .line {
   width: 4rem;
@@ -83,7 +92,7 @@
 .get-in-touch-left p {
   font-size: 1.25rem;
   margin-top: 1.8rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   color: rgb(106, 106, 106);
 }
 .get-in-touch-left button{
@@ -94,7 +103,7 @@
   width: fit-content;
   font-size: 1rem;
   font-weight: 600;
-  font-family: "Montserrat", Arial, sans-serif;
+  /* font-family: "Montserrat", Arial, sans-serif; */
   transition: all 0.2s ease;
   margin-top: 1rem;
 }
@@ -158,7 +167,7 @@
   width: fit-content;
   font-size: 1rem;
   font-weight: 600;
-  font-family: "Montserrat", Arial, sans-serif;
+  /* font-family: "Montserrat", Arial, sans-serif; */
   transition: all 0.2s ease;
   margin-top: 1rem;
 }

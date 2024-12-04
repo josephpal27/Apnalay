@@ -22,14 +22,14 @@
     color: #fff;
     font-size: 3.5rem;
     font-weight: 800;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 .top-banner .top-banner-text h6{
     color: #d25826;
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 0.5rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 .top-banner .top-banner-text i{
     color: #fff;
@@ -107,7 +107,7 @@
 .our-services .card p{
     font-size: 1.2rem;
     color: #585858;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     margin-top: 0.8rem;
     padding: 0 0.9rem;
 }
@@ -122,14 +122,13 @@
     padding: 0.7rem 2.3rem;
     margin-top: 0.8rem;
     border-radius: 5px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     transition: all 0.2s ease;
 }
 .our-services .card button:hover{
     color: #fff;
     background-color: #528363;
 }
-
 @media screen and (max-width: 576px) {
     .our-services{
         padding: 3rem 0.6rem;
@@ -184,17 +183,21 @@
     padding: 0 1.2rem 0 2.5rem;
 }
 
-.modal-left h2{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.modal-left h2,
+.modal-left h3{
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-weight: 600;
     font-size: 1.6rem;
     color: #d25826;
     margin-bottom: 0.8rem;
 }
+.modal-left h3{
+    margin-top: 2rem;
+}
 .modal-left p{
     margin: 0;
     margin-bottom: 0.3rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-size: 1.05rem;
 }
 
@@ -231,9 +234,13 @@
         width: 100%;
         padding: 1.1rem 0.5rem 0 0.5rem;
     }
-    .modal-left h2{
+    .modal-left h2,
+    .modal-left h3{
         font-size: 1.25rem;
         margin-bottom: 0.5rem;
+    }
+    .modal-left h3{
+        margin-top: 1.5rem;
     }
     .modal-left p{
         margin-bottom: 0.3rem;
@@ -259,7 +266,7 @@
     overflow: hidden;
 }
 .activities h2{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-weight: 600;
     font-size: 1.7rem;
     color: #d25826;

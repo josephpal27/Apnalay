@@ -42,6 +42,15 @@ header a{
         font-size: 0.6rem;
     }
 }
+@media screen and (max-width: 410px) {
+    header{
+        font-size: 0.52rem;
+        padding: 0.4rem 0;
+    }
+    header i{
+        font-size: 0.5rem;
+    }
+}
 /* Header Ends */
 
 

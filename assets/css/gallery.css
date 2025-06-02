@@ -62,6 +62,89 @@
     }
     /* Top Banner Ends */
 
+    /* Gallery Tabbing System Start */
+    .gallery-tabs{
+        padding: 5rem 0 3rem 0;
+        border-bottom: 1.3px solid #bebebe;
+    }
+    .gallery-tabs .gallery-tab-head{
+        border-bottom: 1.3px solid #bebebe;
+    }
+    .gallery-tabs .gallery-tab-head button{
+        background-color: transparent !important;
+        color: #000 !important;
+        font-weight: 450 !important;
+        font-size: calc(0.8rem + 0.5vw);
+        border-radius: 0;
+        border-bottom: 3.5px solid transparent;
+        text-transform: uppercase;
+        margin-right: 1rem;
+    }
+    .gallery-tabs .gallery-tab-head button:last-child{
+        margin-right: 0;
+    }
+    .gallery-tabs .gallery-tab-head button.active{
+        font-weight: 800 !important;
+        border-bottom: 3.5px solid #538361;
+    }
+
+
+    .gallery-tab-body .gallery-tab-content-head{
+        border: 1.5px solid #000;
+        padding: 1.5rem 3rem;
+        border-radius: 10px;
+        margin-top: 2rem;
+        position: relative;
+    }
+    .gallery-tab-body .gallery-tab-content-head p{
+        margin: 0;
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .gallery-tab-body .gallery-tab-content-head .colon{
+        background-color: #fff;
+        padding: 0.8rem;
+        position: absolute;
+    }
+    .gallery-tab-body .gallery-tab-content-head img{
+        width: 20px;
+    }
+    .gallery-tab-body .gallery-tab-content-head #colon-1{
+        top: -20px;
+        left: -20px;
+    }
+    .gallery-tab-body .gallery-tab-content-head #colon-2{
+        bottom: -18px;
+        right: -20px;
+    }
+
+    .gallery-tab-body .gallery-card-row{
+        margin-top: 1.7rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+    .gallery-tab-body .gallery-card{
+        width: 32%;
+        margin-bottom: 1.5rem;
+        position: relative;
+        overflow: hidden;
+    }
+    .gallery-tab-body .gallery-card img{
+        width: 100%;
+    }
+    .gallery-tab-body .gallery-card .layer{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: -100%;
+        background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.271));
+        transition: all 0.6s ease;
+    }
+    .gallery-tab-body .gallery-card:hover .layer{
+        bottom: 0;
+    }
+    /* Gallery Tabbing System End */
+
 
     /* Gallery Images Section Starts Here */
     .gallery-images{

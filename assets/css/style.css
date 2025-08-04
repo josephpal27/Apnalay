@@ -180,6 +180,7 @@ header a{
    bottom: 0;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
+   z-index: 10;
 }
 .top-cards .card .card-desc h4{
     font-size: 1.4rem;

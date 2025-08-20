@@ -79,9 +79,7 @@
 .get-in-touch-left h1 {
   font-size: 4.2rem;
   font-weight: 800;
-  /* color: #002c41; */
   color: #d25826;
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 .get-in-touch-left .line {
   width: 4rem;
@@ -92,7 +90,6 @@
 .get-in-touch-left p {
   font-size: 1.25rem;
   margin-top: 1.8rem;
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   color: rgb(106, 106, 106);
 }
 .get-in-touch-left button{
@@ -103,7 +100,6 @@
   width: fit-content;
   font-size: 1rem;
   font-weight: 600;
-  /* font-family: "Montserrat", Arial, sans-serif; */
   transition: all 0.2s ease;
   margin-top: 1rem;
 }
@@ -138,6 +134,9 @@
 .get-in-touch-right textarea::placeholder {
   color: #bab9b9;
 }
+.get-in-touch-right input[type="number"]::-webkit-inner-spin-button{
+  display: none;
+}
 .get-in-touch-right select {
   width: 48%;
   height: fit-content;
@@ -167,7 +166,6 @@
   width: fit-content;
   font-size: 1rem;
   font-weight: 600;
-  /* font-family: "Montserrat", Arial, sans-serif; */
   transition: all 0.2s ease;
   margin-top: 1rem;
 }

@@ -682,9 +682,9 @@ header a{
     background-color: #528363;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
     .services-bg{
-        padding: 3rem 0 4rem 0;
+        padding: 3rem 0 3rem 0;
     }
     .services-head h1{
         font-size: 2rem;
@@ -702,31 +702,31 @@ header a{
         margin-top: 1.5rem;
     }
     .slick-prev, 
-.slick-next {
-    display: none !important;
-}
-.slick-slide {
-    margin: 0 10px;
-}
-.service-card-img{
-    height: auto;
-}
-.card-slider .card h3{
-    font-size: 1.4rem;
-    margin-top: 1.5rem;
-}
-.card-slider .card p{
-    font-size: 1rem;
-}
-.card-slider .card button{
-    font-size: 0.9rem;
-    padding: 0.5rem 2rem;
-    margin-top: 0.5rem;
-}
-.service-btn button{
-    font-size: 0.9rem;
-    padding: 0.5rem 2rem;
-}
+    .slick-next {
+        display: none !important;
+    }
+    .slick-slide {
+        margin: 0 10px;
+    }
+    .service-card-img{
+        height: auto;
+    }
+    .card-slider .card h3{
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+    }
+    .card-slider .card p{
+        font-size: 1rem;
+    }
+    .card-slider .card button{
+        font-size: 0.9rem;
+        padding: 0.5rem 2rem;
+        margin-top: 0.5rem;
+    }
+    .service-btn button{
+        font-size: 0.9rem;
+        padding: 0.5rem 2rem;
+    }
 }
 /* Services Section Ends */
 
@@ -788,6 +788,39 @@ header a{
 
 #sanskriti-parichay-vid{
     padding-top: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+    .insta-post-bg .insta-post{
+        flex-wrap: wrap;
+        padding: 0.7rem;
+    }
+    .insta-post-bg .insta-post .insta-post-video{
+        width: 100%;
+    }
+    .insta-post-bg .insta-post .insta-post-content{
+        width: 100%;
+        padding-right: 0;
+    }
+    .insta-post-bg .insta-post .insta-post-content p{
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+    .insta-post-bg .insta-post .insta-post-content button{
+        padding: 0.6rem 1.2rem;
+        font-size: 0.95rem;
+        margin-top: 1.5rem;
+    }
+    .insta-post-bg .insta-post .insta-post-content button i{
+        font-size: 1.3rem;
+    }
+
+    #sanskriti-parichay-vid{
+        padding-top: 0;
+    }
+    #sanskriti-parichay-vid .insta-post{
+        flex-direction: column-reverse;
+    }
 }
 /* Insta Post Ends */
 

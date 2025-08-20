@@ -142,6 +142,61 @@
     .gallery-tab-body .gallery-card:hover .layer{
         bottom: 0;
     }
+
+    @media screen and (max-width: 767px) {
+        .gallery-tabs{
+            padding: 2rem 0.8rem 0.5rem 0.8rem;
+        }
+        .gallery-tabs .gallery-tab-head{
+            flex-wrap: wrap;
+        }
+        .gallery-tabs .gallery-tab-head button{
+            width: 100%;
+            text-align: left;
+            font-size: calc(0.9rem + 0.5vw);
+            margin-right: 0;
+            padding: 0.4rem 0.5rem;
+            border-bottom: 0;
+            border-left: 4px solid transparent;
+        }
+        .gallery-tabs .gallery-tab-head button.active{
+            background-color: #f8f7f7 !important;
+            border-bottom: 0;
+            border-left: 4px solid #538361;
+        }
+
+        .gallery-tab-body .gallery-tab-content-head{
+            padding: 1.3rem 0.5rem;
+            margin-top: 1.5rem;
+        }
+        .gallery-tab-body .gallery-tab-content-head p{
+            font-size: calc(0.7rem + 0.5vw);
+        }
+        .gallery-tab-body .gallery-tab-content-head .colon{
+            padding: 0.5rem;
+        }
+        .gallery-tab-body .gallery-tab-content-head img{
+            width: 15px;
+        }
+        .gallery-tab-body .gallery-tab-content-head #colon-1{
+            top: -18px;
+            left: -10px;
+        }
+        .gallery-tab-body .gallery-tab-content-head #colon-2{
+            bottom: -15px;
+            right: -10px;
+        }
+
+        .gallery-tab-body .gallery-card-row{
+            margin-top: 1.5rem;
+            gap: 0;
+            justify-content: space-between;
+        }
+        .gallery-tab-body .gallery-card{
+            width: 48.5%;
+            margin-bottom: 0.7rem;
+        }
+    }
     /* Gallery Tabbing System End */
 
     /* Footer Section Starts */

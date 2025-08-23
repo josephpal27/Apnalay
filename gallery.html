@@ -116,6 +116,7 @@
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#christmas" type="button" role="tab" aria-selected="true"><span>Christmas</span></button>
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#event-1" type="button" role="tab" aria-selected="true"><span>Event 1</span></button>
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#event-2" type="button" role="tab" aria-selected="true"><span>Event 2</span></button>
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#apnalay-clinic" type="button" role="tab" aria-selected="true"><span>Apnalay Clinic</span></button>
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#facilities" type="button" role="tab" aria-selected="true"><span>Facilities</span></button>
             </div>
         </div>
@@ -318,6 +319,20 @@
                     <!-- Gallery Card Row End -->
                 </div>
                 <!-- Tab 7 -->
+                <div class="tab-pane fade" id="apnalay-clinic" role="tabpanel">
+                    <!-- Gallery Card Row Start -->
+                    <div class="gallery-card-row">
+                        <!-- Card 1 -->
+                        <div class="gallery-card">
+                            <div class="card-img">
+                                <img src="assets/images/gallery-tabs/Apnalay Clinic/1.webp" alt="image">
+                            </div>
+                            <div class="layer"></div>
+                        </div>
+                    </div>
+                    <!-- Gallery Card Row End -->
+                </div>
+                <!-- Tab 8 -->
                 <div class="tab-pane fade" id="facilities" role="tabpanel">
                     <!-- Gallery Card Row Start -->
                     <div class="gallery-card-row">
@@ -619,6 +634,7 @@
         AOS.init();
     </script>
 
+    <!-- Banner Slider -->
     <script>
         var myCarousel = document.querySelector('#carouselExampleAutoplaying');
         var carousel = new bootstrap.Carousel(myCarousel, {
@@ -626,6 +642,7 @@
         });
     </script>
 
+    <!-- Gallery Modal -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             document.querySelectorAll(".gallery-card").forEach(card => {

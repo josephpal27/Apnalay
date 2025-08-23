@@ -448,6 +448,18 @@
     </section> 
     <!-- Gallery Tabbing System End -->
 
+    <!-- Gallery Modal Start -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-black border-0">
+                <div class="modal-body text-center">
+                    <img src="" alt="Gallery Image" id="galleryModalImg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Modal End -->
+
     <!-- Footer Starts Here -->
     <footer>
         <div class="footer container-xl">
@@ -611,6 +623,25 @@
         var myCarousel = document.querySelector('#carouselExampleAutoplaying');
         var carousel = new bootstrap.Carousel(myCarousel, {
             pause: false // Disable pause on hover
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll(".gallery-card").forEach(card => {
+                card.addEventListener("click", () => {
+                    // Prevent modal from opening on desktop
+                    if (window.innerWidth >= 768) return;
+
+                    const img = card.querySelector(".card-img img");
+                    if (img) {
+                        const modalImg = document.getElementById("galleryModalImg");
+                        modalImg.src = img.src;
+                        const galleryModal = new bootstrap.Modal(document.getElementById('galleryModal'));
+                        galleryModal.show();
+                    }
+                });
+            });
         });
     </script>
 

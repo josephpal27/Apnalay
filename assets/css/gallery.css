@@ -207,6 +207,34 @@
     }
     /* Gallery Tabbing System End */
 
+    /* Gallery Modal Start */
+    #galleryModal img {
+        border-radius: 8px;
+    }
+    #galleryModal .modal-body {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    @media screen and (max-width: 767px) {
+        #galleryModal img {
+            border-radius: 5px;
+        }
+        #galleryModal .modal-body {
+            padding: 0.4rem;
+            border-radius: 8px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        #galleryModal {
+            visibility: hidden !important;
+            pointer-events: none !important;
+        }
+    }
+    /* Gallery Modal End */
+
     /* Footer Section Starts */
     footer{
         margin-top: 5rem;

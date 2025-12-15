@@ -278,10 +278,12 @@
    font-size: 1.2rem;
    color: #5b5b5b;
 }
-.contact-boxes .contact-box-desc h5{
+.contact-boxes .contact-box-desc a{
    font-weight: 800;
    font-size: 1.3rem;
    color: #1b4b60;
+   display: block;
+   text-decoration: none;
 }
 
 @media screen and (max-width: 576px) {

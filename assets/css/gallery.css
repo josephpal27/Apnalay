@@ -141,10 +141,22 @@
     .gallery-tab-body .gallery-card .layer{
         width: 100%;
         height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
         position: absolute;
         bottom: -100%;
         background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.271));
         transition: all 0.6s ease;
+    }
+    .gallery-tab-body .gallery-card .layer p{
+        color: #fff;
+        font-weight: 700;
+        font-size: calc(0.7rem + 0.5vw);
+        background-color: #538361;
+        padding: 0.2rem 0.7rem;
+        border-radius: 7px;
+        text-align: center;
     }
     .gallery-tab-body .gallery-card:hover .layer{
         bottom: 0;
@@ -201,8 +213,12 @@
             justify-content: space-between;
         }
         .gallery-tab-body .gallery-card{
-            width: 48.5%;
+            width: 100%;
             margin-bottom: 0.7rem;
+        }
+        .gallery-tab-body .gallery-card .layer p{
+            font-size: calc(0.9rem + 0.5vw);
+            padding: 0.2rem 0.7rem;
         }
     }
     /* Gallery Tabbing System End */

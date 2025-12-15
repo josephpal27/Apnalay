@@ -1167,6 +1167,24 @@ footer .copyright h6{
 }
 /* Footer Ends */
 
+/* Whatsapp Start */
+.wp-logo{
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    z-index: 100;
+}
+.wp-logo img{
+    width: 50px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+.wp-logo img:hover{
+    box-shadow: rgb(4, 239, 0) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    scale: 1.05;
+}
+/* Whatsapp End */
+
 /* Back to Top Section */
 .back-to-top{
     position: fixed;
